@@ -1,0 +1,17 @@
+{
+  "provider": "amadeus",
+  "routes": [
+    {
+      "origin": "YWG",
+      "destination": "YVR",
+      "currency": "CAD",
+      "days_ahead": 120,
+      "date_from": "2026-02-11",
+      "date_to": "2026-02-14",
+      "return_date_from": "2026-02-14",
+      "return_date_to": "2026-02-17",
+      "top_n": 3,
+      "trip_type": "round_trip"
+    }
+  ]
+}

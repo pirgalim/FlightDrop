@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+export PYTHONPATH="${REPO_ROOT}/src"
+CONFIG_PATH="${REPO_ROOT}/config.json"
+if [[ -f "${CONFIG_PATH}" ]]; then
+  export FLIGHTDROP_CONFIG="${CONFIG_PATH}"
+fi
+
+python -m flightdrop "$@"

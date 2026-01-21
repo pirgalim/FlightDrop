@@ -1,0 +1,185 @@
+{
+  "YWG-YVR-one_way-CAD": [
+    {
+      "checked_at": "2026-01-20T16:43:51.651131+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 106.1,
+      "provider": "amadeus"
+    }
+  ],
+  "YWG-YVR-round_trip-CAD": [
+    {
+      "checked_at": "2026-01-19T23:58:13.957334+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 245.75,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T00:15:35.860306+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 245.75,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T05:18:59.860034+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:03:52.852578+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:09:53.595446+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:14:00.261295+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 285.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:22:19.768198+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:31:45.803516+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:37:44.975730+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:47:48.400977+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:56:21.906739+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T18:06:13.981067+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T18:10:52.729256+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T18:14:04.275078+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-21T02:27:22.176452+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
+    }
+  ],
+  "YWG-YYZ-one_way-CAD": [
+    {
+      "checked_at": "2026-01-20T16:42:40.505860+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 97.7,
+      "provider": "amadeus"
+    }
+  ],
+  "YWG-YYZ-round_trip-CAD": [
+    {
+      "checked_at": "2026-01-19T23:52:38.252550+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 200.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-19T23:56:12.434780+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 200.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T00:13:03.938335+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 200.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T05:16:58.841245+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 200.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:01:47.578657+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 200.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:07:49.021833+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 200.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:13:34.679634+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 221.6,
+      "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-20T17:20:36.719054+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 221.6,
+      "provider": "amadeus"
+    }
+  ]
+}
