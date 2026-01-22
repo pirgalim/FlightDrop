@@ -13,3 +13,4 @@ AGENTS.md
 *.xcworkspace/
 *.xcuserstate
 xcuserdata/
+.env.swp

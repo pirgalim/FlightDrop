@@ -19,7 +19,7 @@ def _format_delta(current: float, previous: float | None) -> str:
     return f"{direction} {abs(delta):.2f}"
 
 
-def _format_offer(index: int, offer) -> str:
+def _format_offer(offer) -> str:
     outbound = ""
     inbound = ""
     if offer.outbound_departure and offer.outbound_arrival:
@@ -27,7 +27,7 @@ def _format_offer(index: int, offer) -> str:
     if offer.inbound_departure and offer.inbound_arrival:
         inbound = f"{offer.inbound_departure} -> {offer.inbound_arrival}"
     carriers = ", ".join(offer.carriers) if offer.carriers else "n/a"
-    parts = [f"{index}. {offer.price:.2f} {offer.currency}"]
+    parts = [f"{offer.price:.2f} {offer.currency}"]
     if outbound:
         parts.append(outbound)
     if inbound:
@@ -109,8 +109,8 @@ def run_check(config_path: str | None) -> int:
             f"{route.origin}->{route.destination}: cheapest {entry.price:.2f} {entry.currency}"
             f" ({delta}) [{trip_label}]{date_range}"
         )
-        for idx, offer in enumerate(offers, start=1):
-            print(_format_offer(idx, offer))
+        for offer in offers:
+            print(_format_offer(offer))
 
     return exit_code
 

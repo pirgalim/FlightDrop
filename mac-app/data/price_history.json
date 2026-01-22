@@ -113,6 +113,13 @@
       "deeplink": null,
       "price": 239.45,
       "provider": "amadeus"
+    },
+    {
+      "checked_at": "2026-01-21T19:38:58.008516+00:00",
+      "currency": "CAD",
+      "deeplink": null,
+      "price": 239.45,
+      "provider": "amadeus"
     }
   ],
   "YWG-YYZ-one_way-CAD": [
